@@ -45,7 +45,7 @@ Algunas de las librerías que se han usado son: Padas, Numpy, Matplotlib.
 
 - [Exploración formato (web)](https://adions025.github.io/){:target="_blank"}
 
-- [Github - Jupyter Notebook](https://github.com/adions025/v){:target="_blank"}
+- [Github - Jupyter Notebook](https://github.com/adions025/){:target="_blank"}
 
 - [Download - Jupyter Notebook](src/)
 
