@@ -1,13 +1,13 @@
 # PRA 2: Creación de la visualización y entrega del proyecto
 
-__Medidas de control sobre el tabaquismo aplicadas en diferentes países y regiones__
+    Medidas de control sobre el tabaquismo aplicadas en diferentes países y regiones
 
-# Dirs and files
+## Dirs and files
 
-- [Link principal (Git page)](https://adions025.github.io/tobacco/){:target="_blank"}
+- [Link principal (Git page)](https://adions025.github.io/tobacco/ target="_blank)
 - [EDA Tobacco (Jupyter Notebook)](https://github.com/adions025/tobacco/blob/master/src/tobacco.ipynb){:target="_blank"}
 - [EDA Tobacco (HTML)](https://adions025.github.io/){:target="_blank"}
 
-# Author
+## Author
 
 - Adonis González Godoy
