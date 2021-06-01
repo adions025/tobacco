@@ -5,7 +5,7 @@
     
 ## 1. Título
 
-  __Medidas de control aplicadas sobre el tabaquismo en diferentes países y regiones__
+__Medidas de control sobre el tabaquismo aplicadas en diferentes países y regiones__
 
 ### 1.1 URL
 
