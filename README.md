@@ -1,11 +1,11 @@
 # PRA 2: Creación de la visualización y entrega del proyecto
 
-**Tabaco**
-
+__Medidas de control aplicadas sobre el tabaquismo en diferentes países y regiones__
 
 # Dirs and files
 
-- [Informe (Git page)](https://adions025.github.io/)
+- [EDA Tobacco (Jupyter Notebook)](https://github.com/adions025/tobacco/blob/master/src/tobacco.ipynb)
+- [EDA Tobacco (HTML)](https://adions025.github.io/)
 
 # Author
 
