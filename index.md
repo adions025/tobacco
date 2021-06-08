@@ -13,6 +13,8 @@ __Medidas de control sobre el tabaquismo aplicadas en diferentes países y regio
 
 ### 1.2 Summary
 
+<div style="text-align: justify">
+
 En este proyecto de visualización se intentará dar respuestas a una serie preguntas relacionadas con el consumo de 
 tabaco a nivel mundial.
 
@@ -24,6 +26,8 @@ esta adicción es semejase a la adicción producida por el uso de drogas como la
 El tabaco también puede ser mortal para los no fumadores. La exposición al humo de segunda mano también se ha visto 
 implicada en resultados adversos para la salud. Fumar durante el embarazo puede provocar varias afecciones de 
 por vida en los bebés. 
+
+</div>
 
 ### 1.1 Los datos
 
@@ -37,9 +41,22 @@ asociados al consumo de tabaco, contribuyendo así a mejorar la salud de la pobl
 
 Links del dataset:
 
-- [Dataset (.csv)](https://github.com/adions025/tobacco/data){:target="_blank"}
+- [Dataset (.csv)](https://github.com/adions025/tobacco/blob/master/data/RGTE17_CoreDataSet.xls){:target="_blank"}
 
 - [Official dataset source](https://www.who.int/tobacco/global_report/2013/full_dataset/en/){:target="_blank"}
+
+### 1.2 Las cuestiones de la visualización
+
+Después del primer contacto con el dataset se intentará responder a las siguientes preguntas: 
+
+- ¿Qué países/regiones tienen el precio más alto de tabaco?
+- ¿Qué países/regiones tiene los impuestos más altos sobre el tabaco?
+- ¿Qué países/regiones tienen más restringidas las áreas de fumadores?
+• ¿Qué países/regiones tiene las políticas de control de tabaco más elevadas?
+• ¿Qué países/regiones tiene prohibiciones de publicidad en los medios de comunicación sobre el tabaco?
+
+En este proyecto se dará respuesta a las preguntas citadas con diferentes visualizaciones unidas en un dashboard.
+Se utilizará la herramienta Tableau.
 
 ## 2. Exploración de los datos 
 
@@ -61,8 +78,6 @@ Algunas de las librerías que se han usado son: Padas, Numpy, Matplotlib.
 
 <div class='tableauPlaceholder' id='viz1623141186920' style='position: relative'><noscript><a href='https:&#47;&#47;adions025.github.io&#47;tobacco&#47;'><img alt='Medidas de control aplicadas sobre el tabaquismo en diferentes países y regiones ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;to&#47;tobacco_16231408325080&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='tobacco_16231408325080&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;to&#47;tobacco_16231408325080&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /></object></div>                
 <script type='text/javascript'> var divElement = document.getElementById('viz1623141186920');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1377px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                  vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-
-Después del primer contacto con el dataset se intentará responder a las siguientes preguntas:
 
 
 ## 5. Conclusiones
