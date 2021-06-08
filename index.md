@@ -46,7 +46,7 @@ Links del dataset:
 
 ### 1.2 Las cuestiones de la visualización
 
-Después del primer contacto con el dataset se intentará responder a las siguientes preguntas: 
+Se intentará responder a las siguientes preguntas: 
 
 - ¿Qué países/regiones tienen el precio más alto de tabaco?
 - ¿Qué países/regiones tiene los impuestos más altos sobre el tabaco?
@@ -54,7 +54,7 @@ Después del primer contacto con el dataset se intentará responder a las siguie
 - ¿Qué países/regiones tiene las políticas de control de tabaco más elevadas?
 - ¿Qué países/regiones tiene prohibiciones de publicidad en los medios de comunicación sobre el tabaco?
 
-En este proyecto se dará respuesta a las preguntas citadas con diferentes visualizaciones unidas en un dashboard.
+En este proyecto se dará respuesta a las preguntas citadas con diferentes visualizaciones en un dashboard.
 Se utilizará la herramienta Tableau.
 
 ## 2. Exploración de los datos 
@@ -77,11 +77,12 @@ Algunas de las librerías que se han usado son: Padas, Numpy, Matplotlib.
 <div class='tableauPlaceholder' id='viz1623141186920' style='position: relative'><noscript><a href='https:&#47;&#47;adions025.github.io&#47;tobacco&#47;'><img alt='Medidas de control aplicadas sobre el tabaquismo en diferentes países y regiones ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;to&#47;tobacco_16231408325080&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='tobacco_16231408325080&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;to&#47;tobacco_16231408325080&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /></object></div>                
 <script type='text/javascript'> var divElement = document.getElementById('viz1623141186920');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1377px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                  vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
-<br><br>
+<br>
 
 <div style="text-align: justify">
-Respuestas:
 
+Respuestas:
+<br><br>
 En el primer gráfico podemos observar el precio del tabaco en los diferentes países, en concreto  el precio de 20 
 cigarrillos de la marca más vendida en dólares en tipo de cambio oficial, se aprecia a mayor intensidad de color el
 precio es más elevado, a partir de aquí damos respuesta sobre los países y regiones con los precios más elevados, 
@@ -89,36 +90,35 @@ Wetern pacific parece tener los precios más elevados del tabaco, en concreto se
 con el precio por encima de los 15$, por otro lado la región de África parece ser la región con los precios más 
 bajos del tabaco, alrededor de 1,5$ entre sus países y siendo Somalia el país con el precio más bajo  de esta región a solo 
 46 centavos de dólar los 20 cigarrillos.
-En la región de Europa los países con los 
+<br>
+En la región de Europa Noruega es el país con el precio más alto por encima de los 12$ mientras que Repúbloca Checa tiene
+los precios más bajos 3,45$, En españa el precio por encima de los 5$.
+<br>
+En America, los precios más altos se localizan en el norte, en conreto en Estados Unidos y Canada por otro lado 
+los más bajos en Colombia a tan solo 0,88$ (De venezuela no hay datos recogidos sobre el precio del tabaco).
 
 <br><br>
 
-En este mapa se puede observar por países las restricciones que tienen respecto al tabaco en la televisión, la radio y 
-los medios impresos nacionales. Como se puede observar clamaramente Rusia tiene una prohibición de todas las formas de 
-publicidad directa e indirecta (o al menos el 90% de la población cubierta por la legislación subnacional completa). 
-Pero también se puede ver claramente que uno de los países que no tienen prohibición o tiene Ausencia total de 
-prohibición o prohibición que no cubra la televisión, la radio y los medios impresos nacionales, es EEUU.
+En el gráfico de burbujas agrupadas tenemos respuesta a las restricciones que tienen respecto al tabaco en la televisión, 
+la radio y los medios impresos nacionales. Como se puede observar clamaramente la región de Eruopa es la que aplica más 
+prohibición de todas las formas de publicidad directa e indirecta. 
+También se puede ver claramente que una de las regiones con menos prohibición es la de South-East Asia o tiene Ausencia,
+En otras palabras, en los países del South-East Asiático aún hay publicidad de tabaco ya sea en radio tv o periódicos
+nacionales.
+ 
+<br><br>
 
-Hoja 2: 
-Significa que toda la información que sale en esta base de datos representa a un grupo de personas, por ejemplo Western 
-pacífico y Europa los datos que tienen son recientes, representativos y periódicos (al menos cada 5 años) tanto para 
-adultos como para jóvenes. En cambio África y Eastern Mediterráneo los datos que se obtienen Datos recientes y 
-representativos de adultos o jóvenes. 
-Creo que es importante porque también puedes hablar de que la información de los datos que tienen está actualizada o no. 
+En el gráfico de tablas resaltadas se da respuesta por cada región, el tipo de restricción que tienen con respecto a 
+los lugares públicos libres de humo. Por ejemplo de puede observar que en la región de américa (AMR) tienen una 
+restricción mayor de todos los lugares públicos completamente libres de humo (o al menos el 90% de la población cubierta 
+por una legislación completa de ambientes libres de humo), mientras que Africa es la región con menos restricciones
+con respecto a fumar el lugares públicos.
 
-Hoja 3: 
-Quiere decir que por cada región se puede ver, el tipo de restricción que tienen con respecto a los lugares públicos 
-libres de humo. Por ejemplo de puede observar que en la región de américa (AMR) tienen una restricción de todos los 
-lugares públicos completamente libres de humo (o al menos el 90% de la población cubierta por una legislación completa 
-de ambientes libres de humo). Que también quiere decir que dentro de esa región habrá países que no tendrán la 
-restricción en todos los lugares públicos, pero como he hecho la media, pues se puede decir que en esa región es así. 
-También puedes decir que el que menos restricción o que tiene Ausencia total de prohibición o prohibición que no cubra
- la televisión, la radio y los medios impresos nacionales es la región de África (AFR). 
+<br><br>
 
-Hoja 4: 
-En este grafico se muestra el impuesto en porcentaje % del precio de la marca más vendida, es decir en Europa que es
-la región donde el impuesto sobre el tabaco es mas alto con un 74,80% (acuérdate que es de media). Y donde el impuesto 
-es mas bajo es en la región de África con un 35,27%. 
+En el gráfico de barras horizontales se muestra el impuesto en porcentaje % del precio de la marca más vendida, 
+Europa es la región donde el impuesto sobre el tabaco es mas alto con un 74,80% de media. Por otro lado el impuesto 
+más bajo es en la región de África con un 35,27%. 
 
 </div>
 
