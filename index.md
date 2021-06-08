@@ -15,19 +15,12 @@ __Medidas de control sobre el tabaquismo aplicadas en diferentes países y regio
 
 <div style="text-align: justify">
 En este proyecto de visualización se intentará dar respuestas a una serie preguntas relacionadas con el consumo de 
-tabaco a nivel mundial.
-<br><br>
-El tabaquismo es un trastorno crónico en que la persona presenta una adicción física como psicológica al consumo de 
-tabaco. El consumo de tabaco es uno de los principales factores de riesgo carcinógeno y otras enfermedades pulmonares. 
-Además de ser altamente adictivo, la nicótica es la droga responsable en primer lugar de la adicción de una persona, 
-esta adicción es semejase a la adicción producida por el uso de drogas como la heroína y la cocaína.
-<br><br>
-El tabaco también puede ser mortal para los no fumadores. La exposición al humo de segunda mano también se ha visto 
-implicada en resultados adversos para la salud. Fumar durante el embarazo puede provocar varias afecciones de 
-por vida en los bebés. 
+tabaco a nivel mundial a partir de la información recogida por la Organización Mundial de la Salud (WHO).
+Con el fin de intentar mejorar el bienestar de las personas y reducir los riegos de la salud  asociados al consumo de 
+tabaco, contribuyendo así a mejorar la salud de la población.  
 </div>
 
-### 1.1 Los datos
+### 1.3 Los datos
 <div style="text-align: justify">
 El dataset ha sido seleccionado de la página oficial de la Organización Mundial de la Salud. La información se refiere 
 al Tabaquismo en el año 2016 y hace un seguimiento de la situación en diferentes países y regiones que han aplicado 
@@ -44,7 +37,25 @@ Links del dataset:
 
 - [Official dataset source](https://www.who.int/tobacco/global_report/2013/full_dataset/en/){:target="_blank"}
 
-### 1.2 Las cuestiones de la visualización
+### 1.5 Descripción
+
+<div style="text-align: justify">
+El tabaquismo es un trastorno crónico en que la persona presenta una adicción física como psicológica al consumo de 
+tabaco. El consumo de tabaco es uno de los principales factores de riesgo carcinógeno y otras enfermedades pulmonares. 
+Además de ser altamente adictivo, la nicótica es la droga responsable en primer lugar de la adicción de una persona, 
+esta adicción es semejase a la adicción producida por el uso de drogas como la heroína y la cocaína.
+<br><br>
+El tabaco también puede ser mortal para los no fumadores. La exposición al humo de segunda mano también se ha visto 
+implicada en resultados adversos para la salud. Fumar durante el embarazo puede provocar varias afecciones de 
+por vida en los bebés. 
+<br><br>
+En este proyecto de visualización se intentará dar respuestas a una serie preguntas relacionadas con el consumo de 
+tabaco a nivel mundial a partir de la información recogida por la Organización Mundial de la Salud (WHO).
+Con el fin de intentar mejorar el bienestar de las personas y reducir los riegos de la salud  asociados al consumo de 
+tabaco, contribuyendo así a mejorar la salud de la población.  
+</div>
+
+### 1.4 Las cuestiones de la visualización
 
 Se intentará responder a las siguientes preguntas: 
 
@@ -60,9 +71,18 @@ Se utilizará la herramienta Tableau.
 ## 2. Exploración de los datos 
 
 El primer contacto con el dataset ha sido realizado usando Jupyter Notebook en un conda enviroment que ejecuta la 
-versión 3.6 de Python. 
+versión 3.6 de Python. Algunas de las librerías que se han usado son: Padas, Numpy, Matplotlib.
 
-Algunas de las librerías que se han usado son: Padas, Numpy, Matplotlib.
+De la exploración de los datos se ha obtenido:
+
+- El dataset contiene 173 variables por los 194 países entre las diferentes regiones registrados. La dimensión del dataset 
+es de **173x194**.
+- El dataset es variado y tiene variables combinadas entre sus diferentes tipos, tiene variables categóricas, numéricas, 
+cadena de caracteres y variables de punto flotante.
+- El dataset contiene datos nulos o "-" de los países que no se han recogido datos.
+- Se han realizado transformaciones de variables detectadas como string a numeric.
+
+La exploración de datos se encuentra disponible en:
 
 - [EDA - HTML](tobacco.html){:target="_blank"}
 
@@ -86,7 +106,7 @@ Respuestas:
 En el primer gráfico podemos observar el precio del tabaco en los diferentes países, en concreto  el precio de 20 
 cigarrillos de la marca más vendida en dólares en tipo de cambio oficial, se aprecia a mayor intensidad de color el
 precio es más elevado, a partir de aquí damos respuesta sobre los países y regiones con los precios más elevados, 
-Wetern pacific parece tener los precios más elevados del tabaco, en concreto se puede observar Australia y Nueva Zelanda
+Western pacific parece tener los precios más elevados del tabaco, en concreto se puede observar Australia y Nueva Zelanda
 con el precio por encima de los 15$, por otro lado la región de África parece ser la región con los precios más 
 bajos del tabaco, alrededor de 1,5$ entre sus países y siendo Somalia el país con el precio más bajo  de esta región a solo 
 46 centavos de dólar los 20 cigarrillos.
@@ -112,7 +132,7 @@ En el gráfico de tablas resaltadas se da respuesta por cada región, el tipo de
 los lugares públicos libres de humo. Por ejemplo de puede observar que en la región de américa (AMR) tienen una 
 restricción mayor de todos los lugares públicos completamente libres de humo (o al menos el 90% de la población cubierta 
 por una legislación completa de ambientes libres de humo), mientras que Africa es la región con menos restricciones
-con respecto a fumar el lugares públicos.
+con respecto a fumar en lugares públicos.
 
 <br><br>
 
@@ -129,7 +149,7 @@ vendida.
 - Australia y Nueva Zelanda tienen el precio más alto de tabaco superando los 15$
 - Europa no solo tiene los impuesto más altos si no también es la región con más importantes restricciones, desde la 
 publicidad prohibida en los medios de comunicación hasta restricciones de fumadores en espacios públicos.
-- África es la región con menos restricciones en espacios públicos.
+- África es la región con menos restricciones en espacios públicos y además con menos impuestos.
 
 ### 5.1 Conclusiones de las visualizaciones
 
@@ -156,7 +176,9 @@ seleccionar, para que el usuario final puede interactuar. En general, se ha teni
 de todos los gráficos sean capaces de entenderse sin poner texto que los acompañen, pero utilizando herramientas 
 elementales que mejora mucho la legibilidad de las visualizaciones como son las etiquetas y las leyendas.
 <br><br>
+
 Por último, el panel de Tableu se ha exportado el dashboard. Se encuentra disponible en el siguiente link:
+
 - [Tableau public](https://public.tableau.com/app/profile/adonis.gonz.lez/viz/tobacco_16231408325080/Dashboard1){:target="_blank"}
 
 </div>
