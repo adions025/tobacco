@@ -101,7 +101,7 @@ La exploración de datos se encuentra disponible en:
 
 <div style="text-align: justify">
 
-**Respuestas:**
+Respuestas:
 <br><br>
 En el primer gráfico podemos observar el precio del tabaco en los diferentes países, en concreto  el precio de 20 
 cigarrillos de la marca más vendida en dólares en tipo de cambio oficial, se aprecia a mayor intensidad de color el
@@ -154,7 +154,7 @@ publicidad prohibida en los medios de comunicación hasta restricciones de fumad
 - África es la región con menos restricciones en espacios públicos y además con menos impuestos.
 
 
-### 4.2 Descripción técnica del proyecto
+ ## 5. Descripción técnica del proyecto
 
 <div style="text-align: justify">
 En este documento se presenta desde el primer contacto con el conjunto de datos hasta las conclusiones de las 
@@ -177,13 +177,12 @@ de todos los gráficos sean capaces de entenderse sin poner texto que los acompa
 elementales que mejora mucho la legibilidad de las visualizaciones como son las etiquetas y las leyendas.
 <br><br>
 
-Por último, el panel de Tableu se ha exportado el dashboard. Se encuentra disponible en el siguiente link:
+Por último, se ha exportado el dashboard. Se encuentra disponible en el siguiente link:
 <br>
+</div>
 - [Tableau public](https://public.tableau.com/app/profile/adonis.gonz.lez/viz/tobacco_16231408325080/Dashboard1){:target="_blank"}
 
-</div>
-
-### 5. Files
+### 6. Files
 
 - [Tableau .twb](/twb/tobacco.twb)
 
