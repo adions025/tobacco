@@ -37,7 +37,7 @@ Links del dataset:
 
 - [Dataset (.csv)](https://github.com/adions025/tobacco/data){:target="_blank"}
 
-- [Official dataset source] (https://www.who.int/tobacco/global_report/2013/full_dataset/en/){:target="_blank"}
+- [Official dataset source](https://www.who.int/tobacco/global_report/2013/full_dataset/en/){:target="_blank"}
 
 ## 2. Exploración de los datos 
 
@@ -46,7 +46,7 @@ versión 3.6 de Python.
 
 Algunas de las librerías que se han usado son: Padas, Numpy, Matplotlib.
 
-- [EDA - HTML](https://github.com/adions025/tobacco/blob/master/tobacco.html){:target="_blank"}
+- [EDA - HTML](tobacco.html){:target="_blank"}
 
 - [EDA - Jupyter Notebook](https://github.com/adions025/tobacco/blob/master/src/tobacco.ipynb){:target="_blank"}
 
