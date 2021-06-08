@@ -104,18 +104,18 @@ La exploración de datos se encuentra disponible en:
 Respuestas:
 <br><br>
 En el primer gráfico podemos observar el precio del tabaco en los diferentes países, en concreto  el precio de 20 
-cigarrillos de la marca más vendida en dólares en tipo de cambio oficial, se aprecia a mayor intensidad de color el
+cigarrillos de la marca más vendida en dólares en tipo de cambio oficial, se aprecia que a mayor intensidad de color el
 precio es más elevado, a partir de aquí damos respuesta sobre los países y regiones con los precios más elevados, 
 Western pacific parece tener los precios más elevados del tabaco, en concreto se puede observar Australia y Nueva Zelanda
 con el precio por encima de los 15$, por otro lado la región de África parece ser la región con los precios más 
 bajos del tabaco, alrededor de 1,5$ entre sus países y siendo Somalia el país con el precio más bajo  de esta región a solo 
 46 centavos de dólar los 20 cigarrillos.
 <br>
-En la región de Europa Noruega es el país con el precio más alto por encima de los 12$ mientras que República Checa tiene
-los precios más bajos 3,45$, En españa el precio se encuentra por encima de los 5$.
+En la región de Europa, Noruega es el país con el precio más alto por encima de los 12$ mientras que República Checa tiene
+los precios más bajos 3,45$. En españa el precio se encuentra por encima de los 5$.
 <br>
-En Ámerica, los precios más altos se localizan en el norte, en conreto en Estados Unidos y Canadá por otro lado 
-los más bajos en Colombia a tan solo 0,88$ (De venezuela no hay datos recogidos sobre el precio del tabaco).
+En América, los precios más altos se localizan en el norte, en conreto en Estados Unidos y Canadá por otro lado 
+los más bajos en Colombia a tan solo 0,88$. (De venezuela no hay datos recogidos sobre el precio del tabaco).
 
 <br><br>
 
@@ -129,15 +129,15 @@ nacionales.
 <br><br>
 
 En el gráfico de tablas resaltadas se da respuesta por cada región, el tipo de restricción que tienen con respecto a 
-los lugares públicos libres de humo. Por ejemplo de puede observar que en la región de américa (AMR) tienen una 
+los lugares públicos libres de humo. Por ejemplo se puede observar que en la región de américa (AMR) tienen una 
 restricción mayor de todos los lugares públicos completamente libres de humo (o al menos el 90% de la población cubierta 
 por una legislación completa de ambientes libres de humo), mientras que Africa es la región con menos restricciones
 con respecto a fumar en lugares públicos.
 
 <br><br>
 
-En el gráfico de barras horizontales se muestra el impuesto en porcentaje % del precio de la marca más vendida, 
-Europa es la región donde el impuesto sobre el tabaco es mas alto con un 74,80% de media. Por otro lado el impuesto 
+En el gráfico de barras horizontales se muestra el impuesto en porcentaje % del precio de la marca más vendida. 
+Europa es la región donde el impuesto sobre el tabaco es más alto con un 74,80% de media. Por otro lado, el impuesto 
 más bajo es en la región de África con un 35,27%. 
 
 </div>
@@ -146,13 +146,13 @@ más bajo es en la región de África con un 35,27%.
 
 ### 4.1 Conclusiones de las visualizaciones
 
-- África es la región con el precio más bajo, en concreto Somalia con solo 0,46$ los 20 cigarrillos de la marca más
-vendida.
 - Australia y Nueva Zelanda tienen el precio más alto de tabaco superando los 15$
-- Europa no solo tiene los impuesto más altos si no también es la región con más importantes restricciones, desde la 
-publicidad prohibida en los medios de comunicación hasta restricciones de fumadores en espacios públicos.
+- África es la región con el precio más bajo, en concreto Somalia con solo 0,46$ los 20 cigarrillos de la marca más vendida.
+- En la región de Europa, Noruega es el país con el precio más alto por encima de los 12$ mientras que República Checa tiene los precios más bajos 3,45$.
+- En América, los precios más altos se localizan en el norte, en conreto en Estados Unidos y Canadá por otro lado los más bajos en Colombia a tan solo 0,88$.
+- Europa no solo tiene los impuesto más altos si no también es la región con más importantes restricciones, desde la publicidad prohibida en los medios de comunicación hasta restricciones de fumadores en espacios públicos.
 - África es la región con menos restricciones en espacios públicos y además con menos impuestos.
-
+- En la región de américa (AMR) tienen una restricción mayor de todos los lugares públicos completamente libres de humo.
 
 ## 5. Descripción técnica del proyecto
 
