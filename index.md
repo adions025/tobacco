@@ -178,7 +178,7 @@ elementales que mejora mucho la legibilidad de las visualizaciones como son las 
 <br><br>
 
 Por último, el panel de Tableu se ha exportado el dashboard. Se encuentra disponible en el siguiente link:
-
+<br>
 - [Tableau public](https://public.tableau.com/app/profile/adonis.gonz.lez/viz/tobacco_16231408325080/Dashboard1){:target="_blank"}
 
 </div>
