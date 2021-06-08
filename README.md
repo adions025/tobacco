@@ -8,13 +8,13 @@
 
 - [Tableau .twb](/twb/tobacco.twb)
 
-- [Tableau public](https://public.tableau.com/app/profile/adonis.gonz.lez/viz/tobacco_16231408325080/Dashboard1){:target="_blank"}
+- [Tableau public](https://public.tableau.com/app/profile/adonis.gonz.lez/viz/tobacco_16231408325080/Dashboard1)
 
-- [Dataset (.csv)](https://github.com/adions025/tobacco/blob/master/data/RGTE17_CoreDataSet.xls){:target="_blank"}
+- [Dataset (.csv)](https://github.com/adions025/tobacco/blob/master/data/RGTE17_CoreDataSet.xls)
 
-- [EDA - HTML](tobacco.html){:target="_blank"}
+- [EDA - HTML](tobacco.html)
 
-- [Informe - pdf](PRAC_informe.pdf){:target="_blank"}
+- [Informe - pdf](PRAC_informe.pdf)
 
 ## Author
 
