@@ -5,8 +5,16 @@
 ## Dirs and files
 
 - [Link principal (Git page)](https://adions025.github.io/tobacco/)
-- [EDA Tobacco (Jupyter Notebook)](https://github.com/adions025/tobacco/blob/master/src/tobacco.ipynb)
-- [EDA Tobacco (HTML)](https://adions025.github.io/)
+
+- [Tableau .twb](/twb/tobacco.twb)
+
+- [Tableau public](https://public.tableau.com/app/profile/adonis.gonz.lez/viz/tobacco_16231408325080/Dashboard1){:target="_blank"}
+
+- [Dataset (.csv)](https://github.com/adions025/tobacco/blob/master/data/RGTE17_CoreDataSet.xls){:target="_blank"}
+
+- [EDA - HTML](tobacco.html){:target="_blank"}
+
+- [Informe - pdf](PRAC_informe.pdf){:target="_blank"}
 
 ## Author
 

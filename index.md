@@ -37,7 +37,7 @@ Links del dataset:
 
 - [Official dataset source](https://www.who.int/tobacco/global_report/2013/full_dataset/en/){:target="_blank"}
 
-### 1.5 Descripción
+### 1.4 Descripción
 
 <div style="text-align: justify">
 El tabaquismo es un trastorno crónico en que la persona presenta una adicción física como psicológica al consumo de 
@@ -55,7 +55,7 @@ Con el fin de intentar mejorar el bienestar de las personas y reducir los riegos
 tabaco, contribuyendo así a mejorar la salud de la población.  
 </div>
 
-### 1.4 Las cuestiones de la visualización
+### 1.5 Las cuestiones de la visualización
 
 Se intentará responder a las siguientes preguntas: 
 
@@ -191,6 +191,8 @@ Por último, se ha exportado el dashboard. Se encuentra disponible en el siguien
 - [Dataset (.csv)](https://github.com/adions025/tobacco/blob/master/data/RGTE17_CoreDataSet.xls){:target="_blank"}
 
 - [EDA - HTML](tobacco.html){:target="_blank"}
+
+- [Informe - pdf](PRAC_informe.pdf){:target="_blank"}
 
 ### Author 
 
