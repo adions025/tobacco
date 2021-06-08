@@ -14,30 +14,29 @@ __Medidas de control sobre el tabaquismo aplicadas en diferentes países y regio
 ### 1.2 Summary
 
 <div style="text-align: justify">
-
 En este proyecto de visualización se intentará dar respuestas a una serie preguntas relacionadas con el consumo de 
 tabaco a nivel mundial.
-
+<br><br>
 El tabaquismo es un trastorno crónico en que la persona presenta una adicción física como psicológica al consumo de 
 tabaco. El consumo de tabaco es uno de los principales factores de riesgo carcinógeno y otras enfermedades pulmonares. 
 Además de ser altamente adictivo, la nicótica es la droga responsable en primer lugar de la adicción de una persona, 
 esta adicción es semejase a la adicción producida por el uso de drogas como la heroína y la cocaína.
-
+<br><br>
 El tabaco también puede ser mortal para los no fumadores. La exposición al humo de segunda mano también se ha visto 
 implicada en resultados adversos para la salud. Fumar durante el embarazo puede provocar varias afecciones de 
 por vida en los bebés. 
-
 </div>
 
 ### 1.1 Los datos
-
+<div style="text-align: justify">
 El dataset ha sido seleccionado de la página oficial de la Organización Mundial de la Salud. La información se refiere 
 al Tabaquismo en el año 2016 y hace un seguimiento de la situación en diferentes países y regiones que han aplicado 
 políticas de control del tabaco que van desde advertencias gráficas y prohibiciones de publicidades hasta zonas de no 
 fumadores.
-
+<br><br>
 Los datos se han recopilado para intentar mejorar el bienestar de las personas y reducir los riegos de la salud 
 asociados al consumo de tabaco, contribuyendo así a mejorar la salud de la población.  
+</div>
 
 Links del dataset:
 
@@ -52,8 +51,8 @@ Después del primer contacto con el dataset se intentará responder a las siguie
 - ¿Qué países/regiones tienen el precio más alto de tabaco?
 - ¿Qué países/regiones tiene los impuestos más altos sobre el tabaco?
 - ¿Qué países/regiones tienen más restringidas las áreas de fumadores?
-• ¿Qué países/regiones tiene las políticas de control de tabaco más elevadas?
-• ¿Qué países/regiones tiene prohibiciones de publicidad en los medios de comunicación sobre el tabaco?
+- ¿Qué países/regiones tiene las políticas de control de tabaco más elevadas?
+- ¿Qué países/regiones tiene prohibiciones de publicidad en los medios de comunicación sobre el tabaco?
 
 En este proyecto se dará respuesta a las preguntas citadas con diferentes visualizaciones unidas en un dashboard.
 Se utilizará la herramienta Tableau.
@@ -71,17 +70,59 @@ Algunas de las librerías que se han usado son: Padas, Numpy, Matplotlib.
 
 - [Download EDA - Jupyter Notebook](/src/tobacco.ipynb)
 
-## 4. Visualisations
+## 3. Visualisations
 
 - [Tableau public](https://public.tableau.com/app/profile/adonis.gonz.lez/viz/tobacco_16231408325080/Dashboard1){:target="_blank"}
-
 
 <div class='tableauPlaceholder' id='viz1623141186920' style='position: relative'><noscript><a href='https:&#47;&#47;adions025.github.io&#47;tobacco&#47;'><img alt='Medidas de control aplicadas sobre el tabaquismo en diferentes países y regiones ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;to&#47;tobacco_16231408325080&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='tobacco_16231408325080&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;to&#47;tobacco_16231408325080&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /></object></div>                
 <script type='text/javascript'> var divElement = document.getElementById('viz1623141186920');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1377px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                  vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
+<br><br>
+
+<div style="text-align: justify">
+Respuestas:
+
+En el primer gráfico podemos observar el precio del tabaco en los diferentes países, en concreto  el precio de 20 
+cigarrillos de la marca más vendida en dólares en tipo de cambio oficial, se aprecia a mayor intensidad de color el
+precio es más elevado, a partir de aquí damos respuesta sobre los países y regiones con los precios más elevados, 
+Wetern pacific parece tener los precios más elevados del tabaco, en concreto se puede observar Australia y Nueva Zelanda
+con el precio por encima de los 15$, por otro lado la región de África parece ser la región con los precios más 
+bajos del tabaco, alrededor de 1,5$ entre sus países y siendo Somalia el país con el precio más bajo  de esta región a solo 
+46 centavos de dólar los 20 cigarrillos.
+En la región de Europa los países con los 
+
+<br><br>
+
+En este mapa se puede observar por países las restricciones que tienen respecto al tabaco en la televisión, la radio y 
+los medios impresos nacionales. Como se puede observar clamaramente Rusia tiene una prohibición de todas las formas de 
+publicidad directa e indirecta (o al menos el 90% de la población cubierta por la legislación subnacional completa). 
+Pero también se puede ver claramente que uno de los países que no tienen prohibición o tiene Ausencia total de 
+prohibición o prohibición que no cubra la televisión, la radio y los medios impresos nacionales, es EEUU.
+
+Hoja 2: 
+Significa que toda la información que sale en esta base de datos representa a un grupo de personas, por ejemplo Western 
+pacífico y Europa los datos que tienen son recientes, representativos y periódicos (al menos cada 5 años) tanto para 
+adultos como para jóvenes. En cambio África y Eastern Mediterráneo los datos que se obtienen Datos recientes y 
+representativos de adultos o jóvenes. 
+Creo que es importante porque también puedes hablar de que la información de los datos que tienen está actualizada o no. 
+
+Hoja 3: 
+Quiere decir que por cada región se puede ver, el tipo de restricción que tienen con respecto a los lugares públicos 
+libres de humo. Por ejemplo de puede observar que en la región de américa (AMR) tienen una restricción de todos los 
+lugares públicos completamente libres de humo (o al menos el 90% de la población cubierta por una legislación completa 
+de ambientes libres de humo). Que también quiere decir que dentro de esa región habrá países que no tendrán la 
+restricción en todos los lugares públicos, pero como he hecho la media, pues se puede decir que en esa región es así. 
+También puedes decir que el que menos restricción o que tiene Ausencia total de prohibición o prohibición que no cubra
+ la televisión, la radio y los medios impresos nacionales es la región de África (AFR). 
+
+Hoja 4: 
+En este grafico se muestra el impuesto en porcentaje % del precio de la marca más vendida, es decir en Europa que es
+la región donde el impuesto sobre el tabaco es mas alto con un 74,80% (acuérdate que es de media). Y donde el impuesto 
+es mas bajo es en la región de África con un 35,27%. 
+
+</div>
 
 ## 5. Conclusiones
-
 
 ### 5.1 Conclusiones de las visualizaciones
 
