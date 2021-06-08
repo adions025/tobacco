@@ -45,11 +45,11 @@ versión 3.6 de Python.
 
 Algunas de las librerías que se han usado son: Padas, Numpy, Matplotlib.
 
-- [Exploración formato (web)](https://adions025.github.io/){:target="_blank"}
+- [EDA - HTML](/src/tobacco.html){:target="_blank"}
 
-- [Github - Jupyter Notebook](https://github.com/adions025/){:target="_blank"}
+- [EDA - Jupyter Notebook](https://github.com/adions025/tobacco/blob/master/src/tobacco.ipynb){:target="_blank"}
 
-- [Download - Jupyter Notebook](src/)
+- [Download EDA - Jupyter Notebook](/src/tobacco.ipynb)
 
 ## 4. Visualisations
 
