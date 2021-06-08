@@ -154,7 +154,7 @@ publicidad prohibida en los medios de comunicación hasta restricciones de fumad
 - África es la región con menos restricciones en espacios públicos y además con menos impuestos.
 
 
- ## 5. Descripción técnica del proyecto
+## 5. Descripción técnica del proyecto
 
 <div style="text-align: justify">
 En este documento se presenta desde el primer contacto con el conjunto de datos hasta las conclusiones de las 
