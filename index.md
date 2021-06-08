@@ -91,10 +91,10 @@ con el precio por encima de los 15$, por otro lado la región de África parece 
 bajos del tabaco, alrededor de 1,5$ entre sus países y siendo Somalia el país con el precio más bajo  de esta región a solo 
 46 centavos de dólar los 20 cigarrillos.
 <br>
-En la región de Europa Noruega es el país con el precio más alto por encima de los 12$ mientras que Repúbloca Checa tiene
-los precios más bajos 3,45$, En españa el precio por encima de los 5$.
+En la región de Europa Noruega es el país con el precio más alto por encima de los 12$ mientras que República Checa tiene
+los precios más bajos 3,45$, En españa el precio se encuentra por encima de los 5$.
 <br>
-En America, los precios más altos se localizan en el norte, en conreto en Estados Unidos y Canada por otro lado 
+En Ámerica, los precios más altos se localizan en el norte, en conreto en Estados Unidos y Canadá por otro lado 
 los más bajos en Colombia a tan solo 0,88$ (De venezuela no hay datos recogidos sobre el precio del tabaco).
 
 <br><br>
@@ -103,7 +103,7 @@ En el gráfico de burbujas agrupadas tenemos respuesta a las restricciones que t
 la radio y los medios impresos nacionales. Como se puede observar clamaramente la región de Eruopa es la que aplica más 
 prohibición de todas las formas de publicidad directa e indirecta. 
 También se puede ver claramente que una de las regiones con menos prohibición es la de South-East Asia o tiene Ausencia,
-En otras palabras, en los países del South-East Asiático aún hay publicidad de tabaco ya sea en radio tv o periódicos
+en otras palabras, en los países del South-East Asiático aún hay publicidad de tabaco ya sea en radio tv o periódicos
 nacionales.
  
 <br><br>
@@ -124,32 +124,42 @@ más bajo es en la región de África con un 35,27%.
 
 ## 5. Conclusiones
 
+- África es la región con el precio más bajo, en concreto Somalia con solo 0,46$ los 20 cigarrillos de la marca más
+vendida.
+- Australia y Nueva Zelanda tienen el precio más alto de tabaco superando los 15$
+- Europa no solo tiene los impuesto más altos si no también es la región con más importantes restricciones, desde la 
+publicidad prohibida en los medios de comunicación hasta restricciones de fumadores en espacios públicos.
+- África es la región con menos restricciones en espacios públicos.
+
 ### 5.1 Conclusiones de las visualizaciones
 
 
 ### 5.2 Descripción técnica del proyecto
 
+<div style="text-align: justify">
 En este documento se presenta desde el primer contacto con el conjunto de datos hasta las conclusiones de las 
 visualizaciones. El exploratorio de los datos ha sido realizado usando Jupyter Notebook en un conda 
 enviroment que ejecuta la versión 3.6 de Python. Las librería que se han usado se encuentran en el informe del 
 Jupyter Notebook, entre las principales se tiene que destacar, Padas, Numpy, Matplotlib, Seaborn.
-
+<br><br>
 Lo primero que se ha realizado es la carga del dataset para realizar una primera inspección, dimensión, valores nulos, 
 tipo de datos. Cuando se ha requerido se ha transformado para facilitar la manipulación y/o creación de visualizaciones.
-
+<br><br>
 La herramienta que se ha utilizado para poder hacer las representaciones gráficas del dashboard es Tableau, esta 
 herramienta permite expresar datos visualmente al transformar acciones de arrastrar y soltar en consultas de dados, en 
 una interfaz intuitiva. Puede permitir incluso aprendizaje automático, estadísticos, lenguaje natural y preparación de 
 los datos inteligentes para que sean más eficaces y permitan aumentar la creatividad de las personas que lo utilizan 
 para hacer análisis.
-
+<br><br>
 También se han realizado distintas pruebas con Tableau para poder asegurarse del diseño adecuado que se pretende 
 seleccionar, para que el usuario final puede interactuar. En general, se ha tenido en cuenta que la visualización 
 de todos los gráficos sean capaces de entenderse sin poner texto que los acompañen, pero utilizando herramientas 
 elementales que mejora mucho la legibilidad de las visualizaciones como son las etiquetas y las leyendas.
+<br><br>
+Por último, el panel de Tableu se ha exportado el dashboard. Se encuentra disponible en el siguiente link:
+- [Tableau public](https://public.tableau.com/app/profile/adonis.gonz.lez/viz/tobacco_16231408325080/Dashboard1){:target="_blank"}
 
-Por último, el panel de Tableu se ha exportado el dashboard. Se encuentra disponible en el siguiente link.
-
+</div>
 
 ### Author 
 
